@@ -30,7 +30,7 @@ sequenceDiagram
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
-    server-->>browser: [{ "content": "HTML is easy", "date": "2023-1-1" }, ... , { "content": "nueva nota", "date": "2024-6-10" }]
+    server-->>browser: [{ "content": "GG EZ", "date": "2023-1-1" }, ... , { "content": "nueva nota", "date": "2024-6-10" }]
     deactivate server
 
     Note right of browser: El navegador ejecuta la función de callback que renderiza las notas, incluida la nueva nota
