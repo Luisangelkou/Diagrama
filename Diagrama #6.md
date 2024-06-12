@@ -14,7 +14,7 @@ sequenceDiagram
     Note right of browser: El navegador actualiza la lista de notas sin recargar la página
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
-    server-->>browser: [{ "content": "HTML is easy", "date": "2023-1-1" }, ..., { "content": "Nueva nota", "date": "2024-6-10" }]
+    server-->>browser: [{ "content": "Fortnite Battle Pass", "date": "2023-1-1" }, ..., { "content": "Nueva nota", "date": "2024-6-10" }]
     deactivate server
 
     Note right of browser: El navegador renderiza la nueva lista de notas
